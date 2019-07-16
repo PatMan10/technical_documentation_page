@@ -1,0 +1,10 @@
+body {
+  background-color: wheat;
+}
+
+#red-box {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: auto;
+}
