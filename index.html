@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./css/mobile.css" type="text/css" rel="stylesheet">
-    <link href="./css/desktop.css" type="text/css" rel="stylesheet">
-    <script src="./js/script.js"></script>
-    <title>Javascript Tech Doc</title>
-  </head>
 
-  <body>
-    <header>
-      <div #id="open-menu">
-      </div>
-      <div id="nav-drawer">
-      </div>
-    </header>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/normalise.css" type="text/css" rel="stylesheet">
+  <link href="./css/mobile.css" type="text/css" rel="stylesheet">
+  <link href="./css/desktop.css" type="text/css" rel="stylesheet">
+  <script src="./js/script.js"></script>
+  <title>Javascript Tech Doc</title>
+</head>
+
+<body>
+  <header>
+    <div id="open-nav-drawer" onclick="openNavDrawer()">
+      <img src="./img/bars-solid.svg" alt="menu-icon" />
+    </div>
+    <div id="nav-drawer">
+      <header>
+        <h1>JS Documentation</h1>
+      </header>
+
+      <span id="close-nav-drawer" onclick="closeNavDrawer()">&times;</span>
+      <nav id="navbar">
+        <a>Introduction</a>
+        <a>What you should alredy know</a>
+        <a>JavaScript and Java</a>
+        <a>Hello world</a>
+        <a>Variables</a>
+        <a>Declaring variables</a>
+        <a>Variable scope</a>
+        <a>Global variables</a>
+        <a>Constants</a>
+        <a>Data types</a>
+        <a>If statement</a>
+        <a>While loop</a>
+        <a>Function declarations</a>
+        <a>Reference</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>
+        <h1>Introduction</h1>
+      </header>
+    </section>
+  </main>
+
+</body>
+
 </html>

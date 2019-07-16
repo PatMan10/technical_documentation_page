@@ -1,10 +1,58 @@
 body {
   background-color: wheat;
+  padding: 10px;
 }
 
-#red-box {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  margin: auto;
+#open-nav-drawer {
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  padding: 2px;
+  position: fixed;
 }
+
+#open-nav-drawer:hover {
+  background-color: white;
+}
+
+#open-nav-drawer>img {
+  max-width: 100%;
+  height: auto;
+}
+
+#nav-drawer {
+  background-color: #111;
+  height: 100%;
+  width: 250px;
+  padding-top: 60px;
+  position: fixed;
+  left: -250px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+#close-nav-drawer {
+  color: #818181;
+  font-size: 2em;
+  align-self: flex-end;
+  margin: 0 15px 10px 0;
+}
+
+#navbar {
+  overflow: scroll;
+}
+
+#navbar>a {
+  color: #818181;
+  display: block;
+  font-size: 1.5em;
+  padding: 5px 5px 5px 30px;
+  border-bottom: 1px solid black;
+}
+
+#navbar>a:hover {
+  color: #f1f1f1;
+}
+
+
