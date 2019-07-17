@@ -4,7 +4,7 @@ body {
 
 #root {
   background-color: wheat;
-  padding: 10px;
+  padding: 0 10px 0 10px;
   width: 90%;
   margin: auto;
   display: flex;
@@ -78,6 +78,7 @@ header>h1 {
   font-size: 1.2em;
   padding: 5px 5px 5px 30px;
   border-bottom: 1px solid white;
+  text-decoration: none;
 }
 
 #nav-links>a:hover {
@@ -86,4 +87,21 @@ header>h1 {
 
 #main {
   background-color: lime;
+  margin: 75px 0 0 0;
+}
+
+.indented-p-list {
+  background-color: pink;
+  padding-left: 8%;
+}
+
+.indented-p-list>li {
+  background-color: white;
+}
+.indented-p-list p {
+  
+}
+
+code {
+  background-color: silver;
 }
