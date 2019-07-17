@@ -1,14 +1,34 @@
 body {
+  background-color: cyan;
+}
+
+#root {
   background-color: wheat;
   padding: 10px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  z-index: 1;
+  position: fixed;
+  width: 95%;
 }
 
 #open-nav-drawer {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 4px;
   padding: 2px;
-  position: fixed;
+  background-color: white;
+  display: flex;
+  align-items: center;
 }
 
 #open-nav-drawer:hover {
@@ -20,12 +40,20 @@ body {
   height: auto;
 }
 
+header>h1 {
+  text-align: center;
+  font-size: 1.7em;
+  flex-grow: 2;
+  background-color: pink;
+}
+
 #nav-drawer {
   background-color: #111;
   height: 100%;
   width: 250px;
-  padding-top: 60px;
+  padding-top: 30px;
   position: fixed;
+  top: 0;
   left: -250px;
   transition: 0.5s;
   display: flex;
@@ -37,22 +65,25 @@ body {
   font-size: 2em;
   align-self: flex-end;
   margin: 0 15px 10px 0;
+  background-color: red;
 }
 
-#navbar {
+#nav-links {
   overflow: scroll;
 }
 
-#navbar>a {
+#nav-links>a {
   color: #818181;
   display: block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 5px 5px 5px 30px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
-#navbar>a:hover {
+#nav-links>a:hover {
   color: #f1f1f1;
 }
 
-
+#main {
+  background-color: lime;
+}

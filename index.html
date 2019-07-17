@@ -12,43 +12,85 @@
 </head>
 
 <body>
-  <header>
-    <div id="open-nav-drawer" onclick="openNavDrawer()">
-      <img src="./img/bars-solid.svg" alt="menu-icon" />
-    </div>
-    <div id="nav-drawer">
-      <header>
-        <h1>JS Documentation</h1>
-      </header>
+  <div id="root">
+    <header>
+      <div id="open-nav-drawer" onclick="openNavDrawer()">
+        <img src="./img/bars-solid.svg" alt="menu-icon" />
+      </div>
+      <h1>JS Documentation</h1>
+      <div id="nav-drawer">
+        <span id="close-nav-drawer" onclick="closeNavDrawer()">&times;</span>
+        <nav id="nav-links">
+          <a>Introduction</a>
+          <a>What you should alredy know</a>
+          <a>JavaScript and Java</a>
+          <a>Hello world</a>
+          <a>Variables</a>
+          <a>Declaring variables</a>
+          <a>Variable scope</a>
+          <a>Global variables</a>
+          <a>Constants</a>
+          <a>Data types</a>
+          <a>If statement</a>
+          <a>While loop</a>
+          <a>Function declarations</a>
+          <a>Reference</a>
+        </nav>
+      </div>
+    </header>
 
-      <span id="close-nav-drawer" onclick="closeNavDrawer()">&times;</span>
-      <nav id="navbar">
-        <a>Introduction</a>
-        <a>What you should alredy know</a>
-        <a>JavaScript and Java</a>
-        <a>Hello world</a>
-        <a>Variables</a>
-        <a>Declaring variables</a>
-        <a>Variable scope</a>
-        <a>Global variables</a>
-        <a>Constants</a>
-        <a>Data types</a>
-        <a>If statement</a>
-        <a>While loop</a>
-        <a>Function declarations</a>
-        <a>Reference</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main-doc">
-    <section id="Introduction" class="main-section">
-      <header>
-        <h1>Introduction</h1>
-      </header>
-    </section>
-  </main>
-
+    <main id="main">
+      <section id="section-introduction">
+        <h2>Introduction</h2>
+        <p>
+          JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+        </p>
+        <p>
+          JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
+        </p>
+        <p class="indent">
+          Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
+        </p>
+        <p class="indent">
+          Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
+        </p>
+      </section>
+      <section id="section-what-you-should-know">
+        <h2>What you should already know</h2>
+      </section>
+      </section>
+      <section id="section-hello-world">
+        <h2>Hello world</h2>
+      </section>
+      <section id="section-variables">
+        <h2>Variables</h2>
+      </section>
+      <section id="section-declaring-variables">
+        <h2>Declaring variables</h2>
+      </section>
+      <section id="section-variable-scope">
+        <h2>Variable scope</h2>
+      </section>
+      <section id="section-global-variables">
+        <h2>JavaScript and Java</h2>
+      </section>
+      <section id="section-constants">
+        <h2>Constants</h2>
+      </section>
+      <section id="section-data-types">
+        <h2>Data types</h2>
+      </section>
+      <section id="section-if-statement">
+        <h2>If statement</h2>
+      </section>
+      <section id="section-while-loop">
+        <h2>While loop</h2>
+      </section>
+      <section id="section-function-declaration">
+        <h2>If statement</h2>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
