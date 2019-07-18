@@ -98,9 +98,8 @@ header>h1 {
 .indented-p-list>li {
   background-color: white;
 }
-.indented-p-list p {
-  
-}
+
+.indented-p-list p {}
 
 code {
   background-color: silver;
