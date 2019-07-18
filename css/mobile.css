@@ -3,9 +3,8 @@ body {
 }
 
 #root {
-  background-color: wheat;
-  padding: 0 10px 0 10px;
   width: 90%;
+  background-color: wheat;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -13,12 +12,12 @@ body {
 }
 
 header {
+  min-width: 95%;
+  background-color: red;
   display: flex;
   align-items: center;
-  background-color: red;
   z-index: 1;
   position: fixed;
-  width: 95%;
 }
 
 #open-nav-drawer {
@@ -86,8 +85,9 @@ header>h1 {
 }
 
 #main {
+  width: 90%;
   background-color: lime;
-  margin: 75px 0 0 0;
+  margin: 72px 0 0 0;
 }
 
 .indented-p-list {
