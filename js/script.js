@@ -4,7 +4,7 @@ function zol() {
 
 function adjustYOffset() {
   setTimeout(() => {
-    const diff = 91
+    const diff = 85
     const curPos = window.pageYOffset
     if (curPos < diff) return
     const newPos = curPos - diff
