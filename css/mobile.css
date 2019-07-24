@@ -1,10 +1,10 @@
 body {
-  background-color: cyan;
+  /*  background-color: cyan;*/
 }
 
 #root {
   width: 90%;
-  background-color: wheat;
+  /*  background-color: wheat;*/
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -12,12 +12,20 @@ body {
 }
 
 header {
-  min-width: 95%;
-  background-color: red;
+  width: 99%;
+  padding-left: 12px;
+  background-color: #e5e5e5;
   display: flex;
   align-items: center;
   z-index: 1;
   position: fixed;
+}
+
+header>h1 {
+  text-align: center;
+  font-size: 1.7em;
+  flex-grow: 2;
+  /*  background-color: pink;*/
 }
 
 #open-nav-drawer {
@@ -25,25 +33,19 @@ header {
   width: 35px;
   border-radius: 4px;
   padding: 2px;
-  background-color: white;
+  /*  background-color: white;*/
   display: flex;
   align-items: center;
 }
 
 #open-nav-drawer:hover {
   background-color: white;
+  cursor: pointer;
 }
 
 #open-nav-drawer>img {
   max-width: 100%;
   height: auto;
-}
-
-header>h1 {
-  text-align: center;
-  font-size: 1.7em;
-  flex-grow: 2;
-  background-color: pink;
 }
 
 #nav-drawer {
@@ -60,11 +62,17 @@ header>h1 {
 }
 
 #close-nav-drawer {
-  color: #818181;
+  /*  color: #818181;*/
+  color: white;
   font-size: 2em;
   align-self: flex-end;
   margin: 0 15px 10px 0;
+  border-radius: 4px;
+}
+
+#close-nav-drawer:hover {
   background-color: red;
+  cursor: pointer;
 }
 
 #nav-links {
@@ -86,21 +94,21 @@ header>h1 {
 
 #main {
   width: 90%;
-  background-color: lime;
+  /*  background-color: lime;*/
   margin: 72px 0 50px 0;
 }
 
 .indented-p-list {
-  background-color: pink;
+  /*  background-color: pink;*/
   padding-left: 8%;
 }
 
 .indented-p-list>li {
-  background-color: white;
+  /*  background-color: white;*/
 }
 
-.indented-p-list p {}
-
 code {
-  background-color: silver;
+  display: block;
+  background-color: #f2f2f2;
+  padding: 10px;
 }

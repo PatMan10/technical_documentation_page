@@ -182,7 +182,8 @@
           if (true) {<br>
           &emsp;let y = 5;<br>
           }<br>
-          // ReferenceError: y is not defined<br>
+          // ReferenceError:<br>
+          // y is not defined<br>
           console.log(y);
         </code>
       </section>
@@ -214,13 +215,13 @@
           You cannot declare a constant with the same name as a function or variable in the same scope. For example:
         </p>
         <code>
-          //causes an error <br>
+          // causes an error <br>
           function f() {};<br>
           const f = 5;<br><br>
-          //causes an error also<br>
+          // causes an error also<br>
           function f() {<br>
           &emsp;const g = 5;<br>
-          &emsp;var g; //statements<br>
+          &emsp;var g;<br>
           }
         </code>
         <p>
@@ -298,11 +299,11 @@
         </p>
         <code>
           if (condition) {<br>
-          &emsp;//runs if condition true<br>
+          &emsp;// runs if condition true<br>
           &emsp;statement_1;<br>
           &emsp;statement_2;<br>
           } else {<br>
-          &emsp;//runs if condition false<br>
+          &emsp;// runs if condition false<br>
           &emsp;statement_3;<br>
           &emsp;statement_4;<br>
           }
@@ -363,17 +364,20 @@
         <ul class="indented-p-list">
           <li>
             <p>
-              After the first pass: n = 1 and x = 1
+              After the first pass:<br>
+              &emsp;n = 1 and x = 1
             </p>
           </li>
           <li>
             <p>
-              After the second pass: n = 2 and x = 3
+              After the second pass:<br>
+              &emsp;n = 2 and x = 3
             </p>
           </li>
           <li>
             <p>
-              After the third pass: n = 3 and x = 6
+              After the third pass:<br>
+              &emsp;n = 3 and x = 6
             </p>
           </li>
         </ul>
